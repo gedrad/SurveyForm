@@ -1,0 +1,129 @@
+html {
+    margin: 0 0;
+    padding: 0 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-image: url('resources\images\yuvraj-singh-508Np5P-LM8-unsplash1.jpg');
+    background-position: center;  
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#survey-form {
+    top: 4%;
+    background-color: rgb(14, 32, 62);
+    opacity: 0.8;
+    padding: 2rem 15rem 5rem 15rem;
+    position: absolute;
+}
+
+label {
+    width: 10rem;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+input {
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+    height: 1.5rem;
+    width: 20rem;
+}
+
+select {
+    width: 20.5rem;
+    height: 2rem; 
+    margin-top: 0.7rem;
+}
+
+#sitting-place {
+    margin-top: 2rem;
+}
+
+input #sitting-place {
+    width: 1rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+textarea {
+    margin: 1rem 0 0.8rem 0;
+    vertical-align: top;
+}
+
+::placeholder, #submit, #dropdown {
+    font-size: 1rem;
+}
+
+#dropdown, #submit {
+   color: rgb(82, 82, 87);
+}
+
+span {
+    vertical-align: top;
+}
+
+#submit {
+    background-color: hsl(120, 61%, 34%);
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1005px) {
+    input {
+        width: 15rem;
+    }
+
+    select {
+        width: 15.5rem;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    input {
+        width: 10rem;
+    }
+
+ select {
+        width: 10.5rem;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    label {
+        width: 5.6rem;
+        font-size: 1.2rem;
+    }
+
+    ::placeholder, #submit, #dropdown {
+        font-size: 0.9rem;
+    }
+}
